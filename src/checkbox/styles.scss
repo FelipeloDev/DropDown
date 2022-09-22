@@ -1,0 +1,17 @@
+.Checkbox {
+  .Checkbox__label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  &__input {
+    width: 18px;
+    height: 18px;
+    margin: 0 10px;
+    background-color: white;
+  }
+}
